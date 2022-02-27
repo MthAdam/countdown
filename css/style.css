@@ -1,0 +1,39 @@
+.countdown h1{
+    text-align:center;
+}
+#getting-started{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height:auto;
+        justify-content:center;
+        align-items: center;
+
+}
+
+#getting-started div{
+    padding:20px;
+    margin:10px;
+    text-align:center;
+    background-color:rgb(106, 92, 158);
+    width:150px;
+    
+
+}
+#getting-started  span{
+    display:block;
+}
+
+#getting-started div :nth-child(1){
+    color:#fff;
+    padding-bottom:10px;
+    font-size: 40px;
+    font-family: 'League Gothic', sans-serif;
+    
+}
+#getting-started div :nth-child(2){
+    color:rgb(219, 219, 219);
+    font-size:40px;
+    font-family: 'Shizuru', cursive;
+}
